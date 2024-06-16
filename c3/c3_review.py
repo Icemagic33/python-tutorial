@@ -96,7 +96,7 @@ print(x <= y)  # True
 print(x >= y)  # False
 
 
-# Data Type
+# Data Type / Structure
 # string, int, float, boolean
 # list, dictionary, tuple, ...
-# we can make new data types
+# we can make new data structures
