@@ -4,6 +4,7 @@ import random
 greeting = "Hi, how are you doing today? My name is"
 name = 'Adrian'
 print(greeting + " " + name)
+print("The length of the full greeting is: {len(greeting + ' ' + name)}")
 print(f"The length of the full greeting is: {len(greeting + ' ' + name)}")
 
 names = ["adrian", "joey", "tom", "ethan", "jack", "gemma",
