@@ -42,6 +42,8 @@ for i in range(10):
         break
     print(i)
 
+# if found
+
 # Continue statement
 print("\nContinue statement:")
 for i in range(10):
@@ -87,3 +89,11 @@ print("\nExample solution for Exercise 1:")
 for i in range(1, 21):
     if i % 2 == 0:
         print(i)
+
+# Solution for Exercise 2
+
+
+# Solution for Exercise 3
+
+
+# Solution for Exercise 4
