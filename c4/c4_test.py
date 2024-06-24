@@ -11,15 +11,22 @@ sentence = "Python programming is fun and educational."
 # Question 2: Conditional Statements
 # Task: Write a program that asks the user for their  score in a test. Use conditional statements to:
 # Grade the user's score as follows: A (90 and above), B (80-89), C (70-79), F (below 70).
-score = int(input("Enter your test score: "))
+# score = int(input("Enter your test score: "))
 
 
 # Question 3: List and Random Indexing
 # Task: Create a list of at least 5 different fruits. Use the random module to select a random fruit from the list and print it. Then:
 # Convert the selected fruit's name to uppercase and print it.
 # Check if the fruit's name contains the letter 'a' and print the result.
-fruits = ["apple", "banana", "cherry", "date", "elderberry"]
-selected_fruits = ...
+fruits = ["apple", "banana", "cherry", "grape", "elderberry"]
+selected_fruits = fruits[random.randint(0, len(fruits)-1)]
+print(selected_fruits)
+print(selected_fruits.upper())
+if 'a' in selected_fruits:
+    print(True)
+else:
+    print(False)
+
 
 # Question 4: Iterating Over a List
 # Task: You are given a list of colors. Write a program that performs the following tasks:
@@ -31,8 +38,11 @@ colors = ["red", "blue", "green", "yellow", "purple",
 
 count = 0
 
-for ... in ...:
-    print(f"Color [color name] is at [color position]")
+for color in colors:
+    print(f"Color {color} is at {colors.index(color)}")
+    print(count)
+    count = count + 1
+    print(count)
 
 print(f"There are total of {count} number of colors.")
 
