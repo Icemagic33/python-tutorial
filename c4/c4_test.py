@@ -20,3 +20,11 @@ score = int(input("Enter your test score: "))
 # Check if the fruit's name contains the letter 'a' and print the result.
 fruits = ["apple", "banana", "cherry", "date", "elderberry"]
 selected_fruits = ...
+
+# Question 4: Iterating Over a List
+# Task: You are given a list of colors. Write a program that performs the following tasks:
+# 1) Iterates over the list of colors using a for loop.
+# 2) Prints each color along with its position (index) in the list.
+# 3) Counts and prints the total number of colors in the list.
+colors = ["red", "blue", "green", "yellow", "purple",
+          "orange", "pink", "brown", "black", "white"]
