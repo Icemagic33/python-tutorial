@@ -28,3 +28,13 @@ selected_fruits = ...
 # 3) Counts and prints the total number of colors in the list.
 colors = ["red", "blue", "green", "yellow", "purple",
           "orange", "pink", "brown", "black", "white"]
+
+count = 0
+
+for ... in ...:
+    print(f"Color [color name] is at [color position]")
+
+print(f"There are total of {count} number of colors.")
+
+# DO NOT : use the len() function
+# -> DO NOT DO THIS: count =  len(colors)
