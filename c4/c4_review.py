@@ -34,3 +34,10 @@ elif score >= 70:
     print("Grade: C")
 else:
     print("Grade: F")
+
+review = "We are reviewing class 3"
+
+if "are" in review:
+    print(True)
+else:
+    print(False)
