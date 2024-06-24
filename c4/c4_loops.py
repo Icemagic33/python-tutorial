@@ -13,7 +13,7 @@ for i in range(5):
 
 # Iterating over a list
 print("\nIterating over a list:")
-fruits = ["apple", "banana", "cherry"]
+fruits = ["apple", "banana", "cherry"]  # fruits is a list type variable
 for fruit in fruits:
     print(fruit)
 
