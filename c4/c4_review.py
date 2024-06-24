@@ -1,8 +1,8 @@
 import random
 
 # Review: Strings and Conditional Statements
-greeting = "Hello, World!"
-name = 'Alice'
+greeting = "Hi, my name is"
+name = 'Adrian'
 print(greeting + " " + name)
 print(f"The length of the full greeting is: {len(greeting + ' ' + name)}")
 
